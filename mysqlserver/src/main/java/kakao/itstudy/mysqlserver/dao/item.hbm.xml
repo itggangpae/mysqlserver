@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="kakao.itstudy.mysqlserver.domain">
+	<class name="Item" table="item">
+		<id name="itemid" column="itemid">
+		</id>
+		<property name="itemname" column="itemname" />
+		<property name="price" column="price" />
+		<property name="description" column="description" />
+		<property name="pictureurl" column="pictureurl" />
+		<property name="updatedate" column="updatedate" />
+	</class>
+	
+</hibernate-mapping>

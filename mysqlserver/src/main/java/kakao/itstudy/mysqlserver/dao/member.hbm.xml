@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="kakao.itstudy.mysqlserver.domain">
+	<class name="Member" table="member">
+		<id name="email" column="email"/>
+		<property name="nickname" column="nickname" />
+		<property name="pw" column="pw" />
+		<property name="profile" column="profile" />
+		<property name="regdate" column="regdate" />
+		<property name="logindate" column="logindate" />
+	</class>
+</hibernate-mapping>
